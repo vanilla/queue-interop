@@ -13,7 +13,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Garden\\Queue\\": "src"
+            "Garden\\QueueInterop\\": "src"
         }
     }
 }
