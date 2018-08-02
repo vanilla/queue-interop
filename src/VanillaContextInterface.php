@@ -7,11 +7,10 @@
 
 namespace Garden\QueueInterop;
 
-use Kaecyra\AppCommon\ConfigInterface;
-
-
 /**
  * Vanilla context interface
+ *
+ * Provides interfaces to both the configuration and locale objects.
  *
  * @author Eric Vachaviolos <eric.v@vanillaforums.com>
  * @package queue-interop

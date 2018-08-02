@@ -7,7 +7,6 @@
 
 namespace Garden\QueueInterop;
 
-
 /**
  * Vanilla context aware interface
  *

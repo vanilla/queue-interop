@@ -32,4 +32,5 @@ interface JobBridgeInterface {
      * @return JobContextInterface
      */
     public function getJobContext(): JobContextInterface;
+
 }
