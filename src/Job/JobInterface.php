@@ -1,8 +1,8 @@
 <?php
 
 /**
+ * @copyright 2009-2018 Vanilla Forums Inc.
  * @license MIT
- * @copyright 2018 Tim Gunter
  */
 
 namespace Garden\QueueInterop\Job;
@@ -11,6 +11,8 @@ use Garden\QueueInterop\RunnableJobInterface;
 
 /**
  * Queue job interface.
+ *
+ * Interface for a runnable job payload.
  *
  * @author Tim Gunter <tim@vanillaforums.com>
  * @package queue-interop
