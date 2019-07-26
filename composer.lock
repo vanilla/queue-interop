@@ -1,138 +1,11 @@
 {
     "_readme": [
         "This file locks the dependencies of your project to a known state",
-        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "8a0122e0a41a55d0bbdadd27bc085dfc",
-    "packages": [
-        {
-            "name": "psr/log",
-            "version": "1.0.2",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/php-fig/log.git",
-                "reference": "4ebe3a8bf773a19edfe0a84b6585ba3d401b724d"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/php-fig/log/zipball/4ebe3a8bf773a19edfe0a84b6585ba3d401b724d",
-                "reference": "4ebe3a8bf773a19edfe0a84b6585ba3d401b724d",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=5.3.0"
-            },
-            "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "1.0.x-dev"
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "Psr\\Log\\": "Psr/Log/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "PHP-FIG",
-                    "homepage": "http://www.php-fig.org/"
-                }
-            ],
-            "description": "Common interface for logging libraries",
-            "homepage": "https://github.com/php-fig/log",
-            "keywords": [
-                "log",
-                "psr",
-                "psr-3"
-            ],
-            "time": "2016-10-10T12:19:37+00:00"
-        },
-        {
-            "name": "vanilla/garden-db",
-            "version": "v0.1.2",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/vanilla/garden-db.git",
-                "reference": "f59c10a8720c431ba3899791b19b73b34ceaae91"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/vanilla/garden-db/zipball/f59c10a8720c431ba3899791b19b73b34ceaae91",
-                "reference": "f59c10a8720c431ba3899791b19b73b34ceaae91",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=7.0",
-                "vanilla/garden-schema": "^1.7.5"
-            },
-            "require-dev": {
-                "bobthecow/faker": "dev-master"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-4": {
-                    "Garden\\Db\\": "src"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Todd Burry",
-                    "email": "todd@vanillaforums.com"
-                }
-            ],
-            "description": "A light but powerful database abstraction layer.",
-            "time": "2018-03-05T18:27:54+00:00"
-        },
-        {
-            "name": "vanilla/garden-schema",
-            "version": "v1.9",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/vanilla/garden-schema.git",
-                "reference": "3370db6fe8a2987813a28e64e3afdf95cb3b9443"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/vanilla/garden-schema/zipball/3370db6fe8a2987813a28e64e3afdf95cb3b9443",
-                "reference": "3370db6fe8a2987813a28e64e3afdf95cb3b9443",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=5.6.0"
-            },
-            "require-dev": {
-                "phpunit/phpunit": "^6"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-4": {
-                    "Garden\\Schema\\": "src"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Todd Burry",
-                    "email": "todd@vanillaforums.com"
-                }
-            ],
-            "description": "A simple data validation and cleaning library based on JSON Schema.",
-            "time": "2018-06-26T20:36:25+00:00"
-        }
-    ],
+    "content-hash": "c9fe9342ca2ccfbc3e494b14a751bbc7",
+    "packages": [],
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",
@@ -140,7 +13,7 @@
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
-        "php": ">=7.0"
+        "php": ">=7.1"
     },
     "platform-dev": []
 }

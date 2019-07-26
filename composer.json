@@ -9,9 +9,7 @@
         }
     ],
     "require": {
-        "php": ">=7.0",
-        "psr/log": "^1.0",
-        "vanilla/garden-db": "^0.1.0"
+        "php": ">=7.1"
     },
     "autoload": {
         "psr-4": {
